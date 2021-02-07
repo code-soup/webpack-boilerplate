@@ -1,0 +1,16 @@
+/** Import config */
+@import "config/config.scss";
+
+/** Import everything from npm dependencies */
+@import "node-modules/**/*.scss";
+@import "common/**/*.scss";
+@import "components/**/*.scss";
+@import "post-type/**/*.scss";
+
+body {
+
+    background: url('images/test.jpg');
+
+    @include font-family('Graphik');
+    @include font-size( 16, 24 );
+}
